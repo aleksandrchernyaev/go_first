@@ -16,7 +16,7 @@ func main() {
 
 	//Второй комментарий
 	fmt.Println(message)
-	fmt.Println(message2)
+	fmt.Println(message3)
 }
 
 func ChangeMessege(message *string) {
