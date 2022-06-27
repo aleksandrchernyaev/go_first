@@ -10,10 +10,13 @@ func main() {
 
 	fmt.Println(message)
 	ChangeMessege(&message)
+
+	//Первый комментарий
 	fmt.Println(message)
 
+	//Второй комментарий
 	fmt.Println(message)
-	fmt.Println(message)
+	fmt.Println(message2)
 }
 
 func ChangeMessege(message *string) {
