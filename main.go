@@ -11,6 +11,9 @@ func main() {
 	fmt.Println(message)
 	ChangeMessege(&message)
 	fmt.Println(message)
+
+	fmt.Println(message)
+	fmt.Println(message)
 }
 
 func ChangeMessege(message *string) {
